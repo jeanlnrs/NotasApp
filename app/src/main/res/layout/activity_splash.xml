@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".view.SplashActivity">
+
+    <ImageView
+        android:layout_width="313dp"
+        android:layout_height="318dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="335dp"
+        android:src="@drawable/ic_event_note_black_48dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/cardview_light_background"
+        android:indeterminateTintMode="src_atop"
+        android:progress="@android:integer/config_mediumAnimTime"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ProgressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="49dp"
+        android:text="Cargando"
+        android:textColor="@color/cardview_light_background" />
+
+</RelativeLayout>

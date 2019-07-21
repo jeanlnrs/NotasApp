@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="activity_title_home">Notas locas</string>
+    <string name="msg_no_notes">No se encontraron notas!</string>
+    <string name="lbl_new_note_title">Nueva Nota</string>
+    <string name="lbl_edit_note_title">Editar Nota</string>
+    <string name="hint_enter_note">¡Introduce tu nota!</string>
+</resources>
